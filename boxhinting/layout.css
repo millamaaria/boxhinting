@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+#container{
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+ol{
+    width: 25%;
+    padding: 35px;
+    list-style-type: none;
+}
+li{
+    padding: 4%;
+}
+
+li:first-child{
+    background: rgb(183, 246, 183);
+    border-bottom-right-radius: 20px;
+    width: 90%;
+}
+
+li:nth-child(2){
+    background: rgb(238, 236, 236);
+    width: 90%
+}
+
+li:nth-child(3){
+    background: rgb(183, 246, 183);
+    border-bottom-right-radius: 20px;
+    width: 90%;
+}
+
+li:nth-child(4){
+    background: rgb(238, 236, 236);
+    width: 90%
+}
+
+#container2{
+    width: 200%;
+}
